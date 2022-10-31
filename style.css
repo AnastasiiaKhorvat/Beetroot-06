@@ -1,9 +1,0 @@
-element.style {
-    background-color: hsla(350, 100%, 88%);
-}
-.navigation {
-  flex: none;  
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
