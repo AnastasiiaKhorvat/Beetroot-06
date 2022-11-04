@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+</head>
+<body>
+    <section>
+        <form action="account-creation">
+            <h1>Create an Account</h1>
+
+            <div class="input-row">
+                <label for="first-name">First Name<input class="input-name" type="text"
+                id="first-name">
+            </label>
+        <label for="last-name">Last Name<input class="input-surname" type="text" id="last-name">
+        </label>
+    </div>
+    <div class="email">
+        <div class="input-row"><label for="email">Your Email<input class="input-email full" type="email"
+                    id="email">
+                </label></div>
+        <p>We'll never share your email with anyone else.</p>
+    </div>
+
+<div>
+    <div class="radio"><input type="radio" name="gender">Male
+    <div class="radio"><input type="radio" name="gender">Female
+</div>
+<div class="input-row">
+<div class="select-country"><label for="country">Country
+
+</label><select class="input-country"
+        name="Country" id="country">
+        <option value="Ukraine">Ukraine</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Australia">Australia</option>
+    </select></div>
+<div class="city-wrapper"> <label class="label-city" for="city">City<input class="input-city"
+            type="text" id="city">
+        </label>
+</div>
+
+        </div>
+    </form>
+
+    <div class="right-box">
+<span class="Profile">
+</span>
+<div id="Profile">
+    <div id="right-box">
+     <h1>Profile</h1>
+    </div>
+    <div class="input-row"><label for="name">Name<input class="input-name" type="text" id="name">
+    </label>
+        <label for="email">E-mail<input class="input-email" type="email" id="email">
+        </label>
+    </div>
+        <div class="input-row">
+            <div class="select-country">
+                <label for="country">Country</label>
+                <select class="input-country" name="Country" id="country">
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Australia">Australia</option>
+                </select></div>
+                <div class="city-wrapper"> 
+                    <label class="label-city" for="city">City<input class="input-city"
+                    type="text" id="city">
+                </label>
+                </div>
+         </div>
+           <button class="button-update">Update</button>
+         </form>
+     </section>
+</body>
+</html>
